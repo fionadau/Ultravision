@@ -7,8 +7,113 @@
 
 body {
   /* Default font family and font color */
+  font-family: 'Poppins', sans-serif;
 }
 
+.grand-titre {
+
+font-size: 88px;
+text-align: center;
+font-weight: 900;
+color: #ffffff;
+
+}
+
+.sous-titre {
+
+  font-size: 38px;
+  text-align: center;
+  font-weight: 900;
+  color: #ffffff;
+
+}
+.titre1{
+
+  font-size: 40px;
+  text-align: center;
+  font-weight: 900;
+  color: ##231f20;
+
+}
+
+.titre2{
+
+  font-size: 24px;
+  text-align: center;
+  font-weight: bold;
+  color: #231f20;
+
+   }
+
+
+  li,
+  .texte1 {
+
+    font-size: 16px;
+    text-align: justify;
+    font-weight: 400;
+    color: #231f20;
+
+
+  }
+
+  .bouton1{
+
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+    color: #fcce00;
+
+
+  }
+
+  .bouton2{
+
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+    color: #ff6b00;
+
+
+  }
+
+  
+.titre3{
+
+    font-size: 32px;
+    text-align: left;
+    font-weight: 900;
+    color: #ffffff;
+
+}
+
+.texte2{
+
+  font-size: 24px;
+  text-align: left;
+  font-weight: 400;
+  color: #ffffff;
+
+}
+
+
+.bouton3{
+
+  font-size: 20px;
+  text-align: center;
+  font-weight: bold;
+  color: #ffffff;
+
+}
+
+.titre4{
+
+  font-size: 40px;
+  text-align: center;
+  font-weight: 900;
+  color: #ffffff;
+
+}
 p, li, textarea, label, input, select {
   /* Default font size and line height */
 }
