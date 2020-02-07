@@ -56,6 +56,8 @@ body {
   margin-bottom: 8px;
   margin-top: 8px;
 }
+
+
 .titre1{
 
   font-size: 40px;
@@ -64,6 +66,13 @@ body {
   color: #231f20;
 }
 
+.colonne-gauche-1{
+  text-align: justify;
+  display: flex;
+  width: 50%;
+  float: left;
+
+}
 .titre2{
 
   font-size: 24px;
@@ -86,11 +95,15 @@ body {
 
   .bouton1{
 
-    font-size: 20px;
-    text-align: center;
-    font-weight: bold;
-    color: #fcce00;
-
+  font-size: 20px;
+  text-align: center;
+  font-weight: bold;
+  color: #fcce00;
+  border: 2px solid #fcce00;
+  padding: 6px;
+  border-radius:15px;
+  text-decoration: none;
+  float: right;
 
   }
 
@@ -100,7 +113,12 @@ body {
     text-align: center;
     font-weight: bold;
     color: #ff6b00;
-
+    border: 2px solid #ff6b00;
+    padding: 6px;
+    border-radius:15px;
+    text-decoration: none;
+    float: right;
+  
 
   }
 
