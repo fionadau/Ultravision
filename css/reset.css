@@ -4,7 +4,7 @@
  * 2. Prevent adjustments of font size after orientation changes in IE and iOS.
  */
  html {
-  font-family: sans-serif;
+
   /* 1 */
   -ms-text-size-adjust: 100%;
   /* 2 */
@@ -423,3 +423,4 @@ select {
 
 input, select, textarea, label {
   vertical-align: middle; }
+
