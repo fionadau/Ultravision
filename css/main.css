@@ -66,13 +66,7 @@ body {
   color: #231f20;
 }
 
-.colonne-gauche-1{
-  text-align: justify;
-  display: flex;
-  width: 50%;
-  float: left;
 
-}
 .titre2{
 
   font-size: 24px;
@@ -159,6 +153,34 @@ body {
   color: #ffffff;
 
 }
+
+
+.colonne-gauche-1{
+  text-align: justify;
+  display: flex;
+  width: 50%;
+  float: left;
+  margin-right: 32px;
+
+}
+
+.colonne-droite-1{
+
+  display:flex;
+  background: linear-gradient(#fcce00,transparent)left repeat, url(bitmap.png);
+  justify-content : center; 
+
+  }
+
+.colonne-droite-1 img {
+  mix-blend-mode:darken;}
+
+p{
+
+font-size:16px;
+
+}
+
 p, li, textarea, label, input, select {
   /* Default font size and line height */
 }
