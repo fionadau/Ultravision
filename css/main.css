@@ -83,6 +83,8 @@ body {
     text-align: justify;
     font-weight: 400;
     color: #231f20;
+    margin-left:32px;
+    margin-right:32px;
 
 
   }
@@ -98,6 +100,7 @@ body {
   border-radius:15px;
   text-decoration: none;
   float: right;
+  margin-right:32px;
 
   }
 
@@ -112,6 +115,8 @@ body {
     border-radius:15px;
     text-decoration: none;
     float: right;
+    margin-right: 32px;
+    
   
 
   }
@@ -160,10 +165,9 @@ body {
   display: flex;
   width: 50%;
   float: left;
-  margin-right: 32px;
+  
 
 }
-
 .colonne-droite-1{
 
   display:flex;
@@ -171,7 +175,6 @@ body {
   justify-content : center; 
 
   }
-
 .colonne-droite-1 img {
   mix-blend-mode:darken;}
 
@@ -181,6 +184,30 @@ font-size:16px;
 
 }
 
+.colonne-droite-2{
+  text-align: justify;
+  display: flex;
+  margin-right: 32px;
+ 
+
+}
+.colonne-gauche-2{
+
+  background: linear-gradient(#ff6b00,transparent)left repeat, url(bitmap2.png);
+  justify-content : center; 
+  float: left;
+  width: 50%;
+
+  }
+
+.colonne-gauche-2 img {
+  mix-blend-mode:darken;}
+
+p{
+
+font-size:16px;
+
+}
 p, li, textarea, label, input, select {
   /* Default font size and line height */
 }
